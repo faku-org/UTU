@@ -1,5 +1,1 @@
 @import "tailwindcss";
-
-label {
-  @apply block text-gray-700 mb-2 font-bold;
-}
