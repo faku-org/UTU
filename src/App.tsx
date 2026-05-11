@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import { Form } from "./components/form"
 import { FormService } from "./components/formService"
 
@@ -6,7 +6,7 @@ type Project = {
   id: string
   name: string
   description: string
-  component: () => TSX.Element
+  component: () => React.ReactNode
 }
 
 const PROJECTS: Project[] = [
